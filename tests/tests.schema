@@ -4423,11 +4423,6 @@
           "title": "LUIS Application ID",
           "description": "Application ID for your model from the LUIS service."
         },
-        "version": {
-          "$ref": "#/definitions/stringExpression",
-          "title": "LUIS Version",
-          "description": "Optional version to target.  If null then predictionOptions.Slot is used."
-        },
         "endpoint": {
           "$ref": "#/definitions/stringExpression",
           "title": "LUIS Endpoint",
